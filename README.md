@@ -12,7 +12,8 @@
 	}
 
     // String 타입이 들어왔을때 int형변환하는 법
-    //int와 char는 WrapperClass의 이름인 Integer와 Character를 사용한다. 아래 예시가 있음.
+    // 참고) int와 char는 WrapperClass의 이름인 Integer와 Character를 사용한다는 점 유의 
+    //아래 사용 예제
 	public int changeStringToInteger(String word) {
 		return Integer.parseInt(word);
 	}
